@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa Sudamericana</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8399bc;
+            color: #333;
+            background: url('img/f1.webp') center/cover no-repeat;
+        }
+
+        header {
+        
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 100px 20px;
+            text-align: center;
+            color: #f5f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Nueva sección para los equipos */
+        .team-section {
+            padding: 20px 20px;
+             /* Fondo blanco transparente */
+        }
+
+
+        /* Estilos para la fila de equipos usando Bootstrap */
+        .team-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .team-logo {
+            max-width: 100px; /* Ajusta el tamaño de los logos según tus necesidades */
+            margin: 10px; /* Espacio entre los logos */
+        }
+
+      
+
+        .carousel-inner img {
+            width: 300%; /* Asegura que las imágenes ocupen el 100% del contenedor */
+            height: 450px; /* Ajusta la altura según tus necesidades */
+            object-fit: cover; /* Mantiene la relación de aspecto y cubre completamente el contenedor */
+            float: right;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><span class="glyphicon glyphicon-tower"></span> Copa Sudamericana</h1>
+        <div class="container">
+            <h2>𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂 𝒍𝒂 𝑪𝒐𝒑𝒂 𝑺𝒖𝒅𝒂𝒎𝒆𝒓𝒊𝒄𝒂𝒏𝒂</h2>
+            <p>𝑺𝒖𝒎é𝒓𝒈𝒆𝒕𝒆 𝒆𝒏 𝒆𝒍 𝒂𝒑𝒂𝒔𝒊𝒐𝒏𝒂𝒏𝒕𝒆 𝒎𝒖𝒏𝒅𝒐 𝒅𝒆𝒍 𝒇ú𝒕𝒃𝒐𝒍 𝒔𝒖𝒅𝒂𝒎𝒆𝒓𝒊𝒄𝒂𝒏𝒐, 𝒅𝒐𝒏𝒅𝒆 𝒍𝒂 𝒄𝒐𝒎𝒑𝒆𝒕𝒆𝒏𝒄𝒊𝒂 𝒂𝒍𝒄𝒂𝒏𝒛𝒂 𝒔𝒖 𝒎á𝒙𝒊𝒎𝒂 𝒆𝒙𝒑𝒓𝒆𝒔𝒊ó𝒏. 𝑫𝒆𝒔𝒄𝒖𝒃𝒓𝒆 𝒍𝒂 𝒊𝒏𝒕𝒆𝒏𝒔𝒊𝒅𝒂𝒅, 𝒍𝒂 𝒅𝒆𝒔𝒕𝒓𝒆𝒛𝒂 𝒚 𝒍𝒂 𝒄𝒂𝒎𝒂𝒓𝒂𝒅𝒆𝒓í𝒂 𝒆𝒏 𝒄𝒂𝒅𝒂 𝒑𝒂𝒓𝒕𝒊𝒅𝒐 𝒎𝒊𝒆𝒏𝒕𝒓𝒂𝒔 𝒍𝒐𝒔 𝒆𝒒𝒖𝒊𝒑𝒐𝒔 𝒍𝒖𝒄𝒉𝒂𝒏 𝒑𝒐𝒓 𝒍𝒂 𝒈𝒍𝒐𝒓𝒊𝒂 𝒆𝒏 𝒆𝒍 𝒕𝒐𝒓𝒏𝒆𝒐 𝒎á𝒔 𝒑𝒓𝒆𝒔𝒕𝒊𝒈𝒊𝒐𝒔𝒐 𝒅𝒆 𝒍𝒂 𝒓𝒆𝒈𝒊ó𝒏.</p>
+        <p>¡𝙋𝙧𝙚𝙥á𝙧𝙖𝙩𝙚 𝙥𝙖𝙧𝙖 𝙫𝙞𝙫𝙞𝙧 𝙢𝙤𝙢𝙚𝙣𝙩𝙤𝙨 𝙞𝙣𝙤𝙡𝙫𝙞𝙙𝙖𝙗𝙡𝙚𝙨 𝙡𝙡𝙚𝙣𝙤𝙨 𝙙𝙚 𝙝𝙖𝙗𝙞𝙡𝙞𝙙𝙖𝙙, 𝙚𝙢𝙤𝙘𝙞ó𝙣 𝙮 𝙜𝙤𝙡𝙚𝙨! 𝙇𝙖 𝘾𝙤𝙥𝙖 𝙎𝙪𝙙𝙖𝙢𝙚𝙧𝙞𝙘𝙖𝙣𝙖, 𝙙𝙤𝙣𝙙𝙚 𝙡𝙖 𝙥𝙖𝙨𝙞ó𝙣 𝙥𝙤𝙧 𝙚𝙡 𝙛ú𝙩𝙗𝙤𝙡 𝙨𝙚 𝙪𝙣𝙚 𝙚𝙣 𝙪𝙣 𝙚𝙨𝙥𝙚𝙘𝙩á𝙘𝙪𝙡𝙤 ú𝙣𝙞𝙘𝙤 𝙦𝙪𝙚 𝙪𝙣𝙚 𝙖 𝙩𝙤𝙙𝙤 𝙪𝙣 𝙘𝙤𝙣𝙩𝙞𝙣𝙚𝙣𝙩𝙚.𝙙𝙚 𝙡𝙖 𝙧𝙚𝙜𝙞ó𝙣.</p>
+    </div>
+    </header>
+
+    <section>
+        
+        <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/d1.jpg" class="d-block w-50" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/d2.webp" class="d-block w-50" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/d3.jfif" class="d-block w-50" alt="Imagen 2">
+                </div>
+             
+            </div>
+            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+       
+        </div>
+    </section>
+    
+
+  
+    <section class="team-section">
+        <div class="container">
+           
+          <h3>𝗘𝗾𝘂𝗶𝗽𝗼𝘀 𝗽𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻𝘁𝗲𝘀</h3>
+            <div class="row team-row">
+                
+                <div class="col-md-2">
+                    <img src="img/e1.png" alt="Equipo 1" width="35" height="35" class="team-logo">
+                    <p>𝗔𝗿𝗴𝗲𝗻𝘁𝗶𝗻𝗮</p>
+                </div>
+          
+                <div class="col-md-2">
+                    <img src="img/e2.png" alt="Equipo 2"  width="35" height="35" class="team-logo">
+                    <p> 𝗕𝗼𝗹𝗶𝘃𝗶𝗮</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e3.png" alt="Equipo 1" width="35" height="35"  class="team-logo">
+                    <p> 𝗕𝗿𝗮𝘀𝗶𝗹</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e4.png" alt="Equipo 1"  width="35" height="35" class="team-logo">
+                    <p>𝗖𝗵𝗶𝗹𝗲</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e5.png" alt="Equipo 1"   width="35" height="35" class="team-logo">
+                    <p>𝗖𝗼𝗹𝗼𝗺𝗯𝗶𝗮</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e5.png" alt="Equipo 1"  width="35" height="35" class="team-logo">
+                    <p>𝗘𝗰𝘂𝗮𝗱𝗼𝗿</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e6.png" alt="Equipo 1"  width="20" height="20" class="team-logo">
+                    <p> 𝗣𝗮𝗿𝗮𝗴𝘂𝗮𝘆</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/e7.png" alt="Equipo 1" width="35" height="35" class="team-logo">
+                    <p>𝗣𝗲𝗿ú </p>
+                </div>
+
+                <div class="col-md-2">
+                    <img src="img/e9.png" alt="Equipo 1" width="35" height="35" class="team-logo">
+                    <p>𝗨𝗿𝘂𝗴𝘂𝗮𝘆 </p>
+                </div> <div class="col-md-2">
+                    <img src="img/e10.png" alt="Equipo 1"  width="35" height="35" class="team-logo">
+                    <p>𝗩𝗲𝗻𝗲𝘇𝘂𝗲𝗹𝗮</p>
+                </div>
+                <!-- Agrega más equipos según sea necesario -->
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container text-center">
+        <button class="btn btn-primary mr-2">Iniciar Sesión</button>
+        <button class="btn btn-success">Registro de Usuario</button>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <p>Síguenos en redes sociales:</p>
+        <a href="#" class="btn btn-outline-light mr-2">Facebook</a>
+        <a href="#" class="btn btn-outline-light mr-2">Twitter</a>
+        <a href="#" class="btn btn-outline-light">Instagram</a>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
